@@ -1,9 +1,10 @@
 console.log("JS file is loaded correctly!");
 
-$(".content").ready(function () {
-    $("button").hover(function () {
+
+$("button").ready(function () {
+    $("button").hover(function(){
         $(this).css("background-color", "#7E184B");
-    }, function () {
+        }, function(){
         $(this).css("background-color", "#F47E20");
+      });
     });
-});
