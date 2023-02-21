@@ -1,5 +1,6 @@
 .inline-block {
     background-color: #F47E20;
+    color: white;
     padding: 20px;
     width: 100%;
     height: 100px;
@@ -76,8 +77,8 @@ margin-top: -90px;
 }
 
 footer {
-    background-color: #7E184B;
-    color: #F47E20;
+    background-color: #F47E20;
+    color: white;
     margin-top: 250px;
     height: 80px;
 }
@@ -131,6 +132,7 @@ li {
     font-weight: 100;
     font-size: 18pt;
     text-align: center;
+    color: white
 }
 button {
     color: white;
