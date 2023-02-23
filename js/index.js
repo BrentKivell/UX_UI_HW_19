@@ -18,18 +18,67 @@ $("button").ready(function () {
       });
 
 
-
-   
-
           $("#ai").mouseenter(function(){
             $("#ai").animate({
-              height: '+=15px',
-              width: '+=15px'
+              height: '+=5px',
+              width: '+=5px'
             })});
 
 
               $("#ai").mouseleave(function(){
                $("#ai").animate({
-              height: '-=15px',
-              width: '-=15px'
+              height: '-=5px',
+              width: '-=5px'
             })});
+
+            $("#ps").mouseenter(function(){
+              $("#ps").animate({
+                height: '+=5px',
+                width: '+=5px'
+              })});
+  
+  
+                $("#ps").mouseleave(function(){
+                 $("#ps").animate({
+                height: '-=5px',
+                width: '-=5px'
+              })});
+
+              $("#id").mouseenter(function(){
+                $("#id").animate({
+                  height: '+=5px',
+                  width: '+=5px'
+                })});
+    
+    
+                  $("#id").mouseleave(function(){
+                   $("#id").animate({
+                  height: '-=5px',
+                  width: '-=5px'
+                })});
+
+                $("#figma").mouseenter(function(){
+                  $("#figma").animate({
+                    height: '+=5px',
+                    width: '+=5px'
+                  })});
+      
+      
+                    $("#figma").mouseleave(function(){
+                     $("#figma").animate({
+                    height: '-=5px',
+                    width: '-=5px'
+                  })});
+
+                  $("#miro").mouseenter(function(){
+                    $("#miro").animate({
+                      height: '+=5px',
+                      width: '+=5px'
+                    })});
+        
+        
+                      $("#miro").mouseleave(function(){
+                       $("#miro").animate({
+                      height: '-=5px',
+                      width: '-=5px'
+                    })});
