@@ -79,7 +79,7 @@ margin-top: -90px;
 footer {
     background-color: #F47E20;
     color: white;
-    margin-top: 250px;
+    margin-top: 200px;
     height: 80px;
 }
 
@@ -156,6 +156,7 @@ button {
 }
 .icons img {
     margin: 0px 10px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1200px) {

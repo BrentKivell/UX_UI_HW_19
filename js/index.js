@@ -13,6 +13,23 @@ $("button").ready(function () {
       $("li").hover(function(){
           $(this).css("color", "#7E184B");
           }, function(){
-          $(this).css("color", "#white");
+          $(this).css("color", "#ffffff");
         });
       });
+
+
+
+   
+
+          $("#ai").mouseenter(function(){
+            $("#ai").animate({
+              height: '+=15px',
+              width: '+=15px'
+            })});
+
+
+              $("#ai").mouseleave(function(){
+               $("#ai").animate({
+              height: '-=15px',
+              width: '-=15px'
+            })});
