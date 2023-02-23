@@ -16,6 +16,7 @@ text-align: center;
 margin-top: -90px;
 }
 
+/* 
 .heroimg {
     height: 600px;
     padding: 25px;
@@ -26,12 +27,30 @@ margin-top: -90px;
     margin: 0 auto;
     text-align: center; 
 }
+*/
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    margin-top: 50px;
+    min-width: 0;
+    min-height: 0;
+    grid-column-gap: 0;
+    justify-content: center;
+}
+
+.containerGrid img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
 
 .myPhilosophy {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 500px;
+    margin-top: 150px;
 }
 
 .flexContainer {
@@ -55,7 +74,6 @@ margin-top: -90px;
     display: grid;
     grid-template-columns: 25% 75%;
     gap: 40px;
-    width: 100%;
     align-items: center;
     grid-gap: 50px;
 }
